@@ -1,0 +1,142 @@
+*{
+	margin: 0em;
+	padding: 0em;
+	box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+}
+
+header{
+	margin: 0em auto;
+	width: 1140px;
+	height: 160px;
+}
+header .image{
+	width: 200px;
+	text-align: center;
+	float: left;
+}
+header .image img{
+	width: 150px;
+}
+header .text{
+	width: 940px;
+	height: 150px;
+	text-align: center;
+	float: right;
+}
+header .text h2{
+	margin-top: 1em;
+	font-weight: normal;
+	font-size: 3em;
+	color: #ff6600;
+}
+
+nav{
+	margin: 0em auto;
+	width: 1140px;
+	height: 2.4em;
+	background: #006600;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 1.4em;
+ 	color: #fff;
+}
+nav ul li:nth-child(1),
+nav ul li:nth-child(2),
+nav ul li:nth-child(3),
+nav ul li:nth-child(4),
+nav ul li:nth-child(5),
+nav ul li:nth-child(6),
+nav ul li:nth-child(7){
+	float: left;
+	width: 10em;
+	text-align: center;
+	padding-top: 0.3em;
+}
+
+.container{
+	margin: 0em auto;
+	width: 1140px; 
+}
+.container .content{
+	margin-top: 1em;
+	width: 840px;
+	float: left;
+	margin-left: 1em;
+	height: 1100px;
+}
+.container .content li{
+	height: 220px;
+}
+
+.container .content .image__left{
+	width: 300px;
+	text-align: center;
+	float: left;
+}
+.container .content .image__left img{
+	width: 300px;
+}
+
+.container .content .posts{
+	width: 520px;
+	float: right;
+}
+.container .content .posts h3{
+	font-size: 1.4em;
+}
+.container .content .posts p{
+	margin-top: 0.5em;
+	font-size: 1.27em;
+}
+.container .content .day .date{
+	float: left;
+	font-size: 1em;
+	margin-top: 1em;
+}
+.container .content .day .list{
+	float: left;
+	font-size: 1em;
+	margin:1em 0em 0em 4em;	
+}
+.container .content .day .view{
+	float: right;
+	font-size: 1em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.container .image__right{
+	margin-top: 1em;
+	width: 280px;
+	height: 1100px;
+	float: right;
+}
+.container .image__right img{
+	width: 260px;
+	margin: 0.5em 0em 0em 0.5em;
+}
+.container .image__right img:nth-child(3){
+	height: 290px;
+}
+
+footer{
+	margin: 0px auto;
+	width: 1140px;	
+}
+footer .footer{
+	margin-top: 1120px;
+	height: 60px;
+	background: #001100;
+}
+footer h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 2em;
+	color: #fff;
+	padding-top: 0.3em;
+}
